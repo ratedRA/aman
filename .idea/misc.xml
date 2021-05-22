@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../identity-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../boss-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../shared-database/pom.xml" />
+        <option value="$PROJECT_DIR$/../shared-util/pom.xml" />
+        <option value="$PROJECT_DIR$/../message-center/pom.xml" />
+        <option value="$PROJECT_DIR$/../ecom-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../RestSorting/pom.xml" />
+        <option value="$PROJECT_DIR$/../sitepage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../logistics-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../trade-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../shared-workflow/pom.xml" />
+        <option value="$PROJECT_DIR$/../xapi-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../item-query-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../config-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../analytics-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../Codersbid-backend/pom.xml" />
+        <option value="$PROJECT_DIR$/../shared-lib/pom.xml" />
+        <option value="$PROJECT_DIR$/../usercomm-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../cms-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../dibs-protos/pom.xml" />
+        <option value="$PROJECT_DIR$/../inventory-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../spark-analytics-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringMvcStepByStep/pom.xml" />
+        <option value="$PROJECT_DIR$/../item-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../ReactSpringService/pom.xml" />
+        <option value="$PROJECT_DIR$/../be-shared/pom.xml" />
+        <option value="$PROJECT_DIR$/../be-shared/shared-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../be-shared/shared-database/pom.xml" />
+        <option value="$PROJECT_DIR$/../be-shared/shared-workflow/pom.xml" />
+        <option value="$PROJECT_DIR$/../be-shared/shared-salesforce/pom.xml" />
+        <option value="$PROJECT_DIR$/../PhonePe-Client/pom.xml" />
+        <option value="$PROJECT_DIR$/../be-shared/shared-util/pom.xml" />
+        <option value="$PROJECT_DIR$/../aws-lambda/log-importer/pom.xml" />
+        <option value="$PROJECT_DIR$/../be-internal-tools/dibs-transformer-maven-plugin/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../be-shared/dibs-protos/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8.0_221" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

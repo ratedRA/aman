@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../Codersbid-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../PhonePe-Client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SpringMvcStepByStep" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../analytics-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../be-shared" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../boss-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../cms-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../config-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../dibs-protos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ecom-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../identity-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../inventory-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../item-query-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../item-search-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../logistics-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../message-center" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../sitepage-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../spark-analytics-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../trade-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../usercomm-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../xapi-service" vcs="Git" />
+  </component>
+</project>

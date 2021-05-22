@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../Codersbid-backend" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Codersbid-backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Codersbid-backend/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ReactSpringService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ReactSpringService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../RestSorting" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../RestSorting/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../RestSorting/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../aws-lambda/log-importer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../aws-lambda/log-importer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../be-shared/shared-properties/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../be-shared/shared-properties/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../be-shared/shared-salesforce/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../be-shared/shared-salesforce/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../be-shared/shared-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../be-shared/shared-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cms-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cms-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cms-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../dibs-protos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../dibs-protos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../dibs-protos/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ecom-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ecom-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ecom-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../inventory-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../inventory-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../inventory-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../item-query-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../item-query-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../item-query-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../item-search-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../item-search-service/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
