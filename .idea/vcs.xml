@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$/../Codersbid-backend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../PhonePe-Client" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../SpringMvcStepByStep" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../analytics-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../be-shared" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../boss-service" vcs="Git" />
