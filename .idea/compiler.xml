@@ -47,19 +47,5 @@
         <module name="shared-rules" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cbbackendservice" target="1.5" />
-      <module name="cbbeservice" target="1.5" />
-      <module name="codebase" target="1.5" />
-      <module name="dibs-protos (1)" target="1.8" />
-      <module name="shared-database (1)" target="1.8" />
-      <module name="shared-lib (1)" target="1.8" />
-      <module name="shared-properties (1)" target="1.8" />
-      <module name="shared-salesforce (1)" target="1.8" />
-      <module name="shared-service (1)" target="1.8" />
-      <module name="shared-service-" target="1.8" />
-      <module name="shared-util (1)" target="1.8" />
-      <module name="shared-workflow (1)" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
