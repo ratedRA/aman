@@ -17,7 +17,9 @@
         <module name="PhonePe-client" />
         <module name="xapi-service" />
         <module name="spark-analytics-service" />
+        <module name="LuceneMonitor" />
         <module name="identity-service" />
+        <module name="dibs-solr" />
         <module name="in28Minutes-first-webapp" />
         <module name="inventory-service" />
         <module name="RestSorting" />

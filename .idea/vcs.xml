@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../Codersbid-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../LuceneMonitor" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../PhonePe-Client" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../SpringMvcStepByStep" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
@@ -11,6 +12,7 @@
     <mapping directory="$PROJECT_DIR$/../cms-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../config-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../dibs-protos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../dibs-solr" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../ecom-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../identity-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../inventory-service" vcs="Git" />

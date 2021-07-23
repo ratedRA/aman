@@ -39,6 +39,8 @@
         <option value="$PROJECT_DIR$/../be-shared/shared-util/pom.xml" />
         <option value="$PROJECT_DIR$/../aws-lambda/log-importer/pom.xml" />
         <option value="$PROJECT_DIR$/../be-internal-tools/dibs-transformer-maven-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/../dibs-solr/pom.xml" />
+        <option value="$PROJECT_DIR$/../LuceneMonitor/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
