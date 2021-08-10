@@ -41,10 +41,12 @@
         <option value="$PROJECT_DIR$/../be-internal-tools/dibs-transformer-maven-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/../dibs-solr/pom.xml" />
         <option value="$PROJECT_DIR$/../LuceneMonitor/pom.xml" />
+        <option value="$PROJECT_DIR$/../ratedRaMutithreadingJobManager/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/RatedRaMultithreadingJobManager/pom.xml" />
         <option value="$PROJECT_DIR$/../be-shared/dibs-protos/pom.xml" />
       </set>
     </option>
