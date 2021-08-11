@@ -84,6 +84,25 @@ public class LinkedList {
         p.next = null;
     }
 
+    private void sortUsingActualValues(Node head){
+        Node nxt = head.next;
+        Node curr = head;
+
+        while(nxt != null){
+            if(nxt.data < curr.data){
+                curr.next = nxt.next;
+
+                nxt.next = head;
+                head = nxt;
+
+                nxt = curr.next;
+            } else {
+                curr = nxt;
+                nxt = nxt.next;
+            }
+        }
+    }
+
     public static void main(String[] args) {
         LinkedList ll = new LinkedList();
         ll.addNode(11);
