@@ -1,6 +1,6 @@
 package com.test;
 
-public class AnimalParentClass {
+public class AnimalParentClass implements ZooInterface{
     public void walk(){
         System.out.println("this one can walk");
     }
