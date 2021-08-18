@@ -9,9 +9,12 @@ import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.Map;
+import java.util.Set;
 
+import com.google.gson.Gson;
 import org.apache.commons.io.IOUtils;
-
+import org.unitils.util.AnnotationUtils;
 
 
 public class DogChildClass extends AnimalParentClass{
@@ -25,8 +28,8 @@ public class DogChildClass extends AnimalParentClass{
     }
 
     @Override
-    public void belongsHere() {
-        System.out.println("dog doesn't belong in zoo");
+    public void belongsHere(String sayHello) {
+        System.out.println("dog doesn't belong in zoo" + sayHello);
     }
 }
 class Main1{
@@ -72,13 +75,32 @@ class Main1{
         dogChildClass.rub();
 
         Class clasz = ZooInterface.class;
-        Method declaredMethods = clasz.getDeclaredMethod("belongsHere");
-        invokeMethod(declaredMethods, dogChildClass);
+        Set<Method> importerMethods = AnnotationUtils.getMethodsAnnotatedWith(ZooInterface.class, Importer.class, false);
+        Method importerToInvoke = (Method)importerMethods.toArray()[0];
+
+        invokeMethod(importerToInvoke, dogChildClass);
+
+//        String stringAsJson = "{\n" +
+//                "  \"page\": \"/art/drawings-watercolor-paintings/\",\n" +
+//                "  \"name\": \"Drawings and Watercolor Paintings\",\n" +
+//                "  \"type\": \"SEARCH\",\n" +
+//                "  \"user\": {\n" +
+//                "    \"id\": \"17065242\"\n" +
+//                "  }\n" +
+//                "}";
+//
+//        Gson gson = new Gson();
+//        Map map = gson.fromJson(stringAsJson, Map.class);
+//        MapWrapArg mapWrapArg = new MapWrapArg();
+//        mapWrapArg.putAll(map);
+//        System.out.println(mapWrapArg);
 
     }
 
     private static void invokeMethod(Method method, DogChildClass dogChildClass) throws InvocationTargetException, IllegalAccessException {
         System.out.println("entered invoke method");
-        method.invoke(dogChildClass);
+        if(method.getAnnotation(Importer.class).key().equals("qualify")) {
+            method.invoke(dogChildClass, "sayHello");
+        }
     }
 }

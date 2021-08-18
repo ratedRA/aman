@@ -2,7 +2,8 @@ package com.test;
 
 public interface ZooInterface {
 
-    default void belongsHere(){
+    @Importer(key = "qualify")
+    default void belongsHere(String sayHello){
         System.out.println("implement this in dogChild");
     }
 }
