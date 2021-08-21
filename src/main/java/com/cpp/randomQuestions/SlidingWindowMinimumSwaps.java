@@ -1,16 +1,16 @@
 package com.cpp.randomQuestions;
 
-import com.cpp.FastReader;
+import com.cpp.CommonFastReader;
 
 import java.util.Arrays;
 
-public class SlidingWindowMinimumSwaps extends FastReader {
+public class SlidingWindowMinimumSwaps extends CommonFastReader {
     public static void main(String[] args) {
-        FastReader fastReader = new FastReader();
+        CommonFastReader commonFastReader = new CommonFastReader();
         System.out.println("enter the size of the array comprising of only 1 and 0");
-        int n = fastReader.nextInt();
+        int n = commonFastReader.nextInt();
         System.out.println("enter the array");
-        int[] onesAndZerosArray = fastReader.nextIntArray(n);
+        int[] onesAndZerosArray = commonFastReader.nextIntArray(n);
 
         int numberOfZerosToSwap = getNumberOfZerosToSwap(n, onesAndZerosArray);
 

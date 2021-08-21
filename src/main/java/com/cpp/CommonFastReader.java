@@ -5,11 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class FastReader {
+public class CommonFastReader {
     BufferedReader br;
     StringTokenizer st;
 
-    public FastReader(){
+    public CommonFastReader(){
         br = new BufferedReader(new InputStreamReader(System.in));
     }
 
