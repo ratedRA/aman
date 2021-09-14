@@ -59,4 +59,14 @@ public class CommonFastReader {
         }
         return nums;
     }
+
+    public String[] nextStringArray(int n){
+        String[] strs = new String[n];
+        int i = 0;
+        while(n-->0){
+            strs[i] = nextLine();
+            i++;
+        }
+        return strs;
+    }
 }

@@ -37,13 +37,9 @@ public class Main {
     }
     private static Set<String> removeL1s = Sets.newHashSet("/art/","/furniture/");
     public static void main(String[] args) {
-        final Set<String> staticQfSet =  Sets.newHashSet("title", "description");
-        Map<String, Integer> map = staticQfSet.stream().collect(Collectors.toMap(String::toString, qf -> qf.length()));
-        System.out.println(map);
-        if("United States".equals("United States")){
-            System.out.println("yay! so true");
-        }
-
+        System.out.println(Main.class.getResource("/").getPath());
+        String property = System.getProperty("os.name");
+        System.out.println(property);
     }
 
 
