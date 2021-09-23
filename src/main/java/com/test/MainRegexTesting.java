@@ -12,8 +12,11 @@ public class MainRegexTesting {
         String stringPatternEmail = ".*";
         Pattern date = Pattern.compile(stringPattern);
         Pattern email = Pattern.compile(stringPatternEmail);
+        Pattern SELECT_ID_SQL_PATTERN =
+                Pattern.compile("(select\\s+)(.*)(\\s+from)(.*)(limit\\s+@pageStart@,\\s+@pageSize@)", Pattern.CASE_INSENSITIVE);
         boolean matches = date.matcher("1stDibs/101.19.101000 CFNetwork/1121.2.2 Darwin/19.3.0").matches();
         boolean matches1 = email.matcher("aman.prawefogweofh8943gruwgciusdvcvsad@gmail.com").matches();
+        boolean sqlmatcher = SELECT_ID_SQL_PATTERN.matcher("select id from identity limit @pageStart@,    @pageSize@").matches();
         Optional<DataType> typeOfField = DataType.getTypeOfField("24/12/1996 12:34");
         //System.out.println(typeOfField.get().name());
         Pattern userAgentPattern = Pattern.compile(userAgentRegex);
@@ -21,11 +24,18 @@ public class MainRegexTesting {
         UUID uuid = UUID.fromString("F-4-F-6-C");
         System.out.println(uuid);
 
-        int count = 0;
-        if (userAgentMatcher.find())
-        {
-            System.out.println(userAgentMatcher.group());
+//        int count = 0;
+//        if (userAgentMatcher.find())
+//        {
+//            System.out.println(userAgentMatcher.group());
+//        }
+//        System.out.println(count);
+        Matcher matcher = SELECT_ID_SQL_PATTERN.matcher("select id from identity limit @pageStart@,    @pageSize@");
+        String selectBody = null;
+        if (matcher.matches()) {
+            System.out.println(matcher.group(5));
         }
-        System.out.println(count);
+        System.out.println(sqlmatcher);
+
     }
 }
