@@ -17,6 +17,7 @@
         <module name="PhonePe-client" />
         <module name="xapi-service" />
         <module name="spark-analytics-service" />
+        <module name="codersbidv2" />
         <module name="identity-service" />
         <module name="dibs-solr" />
         <module name="ratedRaMutithreadingJobManager" />
@@ -52,5 +53,10 @@
     <bytecodeTargetLevel>
       <module name="RatedRaMultithreadingJobManager" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="codersbidv2" options="-parameters" />
+    </option>
   </component>
 </project>

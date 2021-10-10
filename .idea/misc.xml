@@ -42,6 +42,7 @@
         <option value="$PROJECT_DIR$/../dibs-solr/pom.xml" />
         <option value="$PROJECT_DIR$/../LuceneMonitor/pom.xml" />
         <option value="$PROJECT_DIR$/../ratedRaMutithreadingJobManager/pom.xml" />
+        <option value="$PROJECT_DIR$/../codersbidv2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
