@@ -1,6 +1,7 @@
 package com.codersbid;
 
 import com.google.common.collect.Sets;
+import org.apache.commons.lang.RandomStringUtils;
 
 import java.text.SimpleDateFormat;
 import java.time.Instant;
@@ -19,9 +20,11 @@ public class Main {
     private static TimeUnit timeUnit;
 
     public static void main(String[] args) {
-        TestValuePassing testValuePassing = new TestValuePassing("20");
-        setValue(testValuePassing);
-        System.out.println(testValuePassing.getValue());
+//        TestValuePassing testValuePassing = new TestValuePassing("20");
+//        setValue(testValuePassing);
+//        System.out.println(testValuePassing.getValue());
+        String s = RandomStringUtils.randomAlphanumeric(8);
+        System.out.println(s);
     }
     protected void setAge(int x){
         this.age  = x;
