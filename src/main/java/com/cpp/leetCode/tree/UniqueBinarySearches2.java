@@ -1,6 +1,6 @@
-package com.cpp.leetCode;
+package com.cpp.leetCode.tree;
 
-import com.cpp.dataStructure.TreeMain;
+import com.cpp.leetCode.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.HashMap;

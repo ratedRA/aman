@@ -1,4 +1,6 @@
-package com.cpp.leetCode;
+package com.cpp.leetCode.tree;
+
+import com.cpp.leetCode.tree.TreeNode;
 
 public class RecoverBst99 {
     private TreeNode first, middle, last, prev;
