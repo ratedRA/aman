@@ -13,6 +13,7 @@
     <mapping directory="$PROJECT_DIR$/../codersbidv2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../config-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../consul-config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../designPatterns" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../dibs-protos" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../dibs-solr" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../ecom-service" vcs="Git" />

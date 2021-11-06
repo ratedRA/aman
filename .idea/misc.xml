@@ -6,7 +6,6 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../identity-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../boss-service/pom.xml" />
         <option value="$PROJECT_DIR$/../shared-database/pom.xml" />
         <option value="$PROJECT_DIR$/../shared-util/pom.xml" />
         <option value="$PROJECT_DIR$/../message-center/pom.xml" />
@@ -43,6 +42,8 @@
         <option value="$PROJECT_DIR$/../LuceneMonitor/pom.xml" />
         <option value="$PROJECT_DIR$/../ratedRaMutithreadingJobManager/pom.xml" />
         <option value="$PROJECT_DIR$/../codersbidv2/pom.xml" />
+        <option value="$PROJECT_DIR$/../designPatterns/pom.xml" />
+        <option value="$PROJECT_DIR$/../boss-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -52,7 +53,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8.0_221" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8.0_221" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
