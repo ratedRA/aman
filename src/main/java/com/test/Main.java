@@ -42,21 +42,43 @@ public class Main {
 //        System.out.println(Main.class.getResource("/").getPath());
 //        String property = System.getProperty("os.name");
 //        System.out.println(property);
-        try {
-            StringBuilder builder = new StringBuilder();
-            if (StringUtils.isNotEmpty(builder.toString())) {
-                System.out.println("not empty");
-            } else {
-                System.out.println("empty");
-                throw new CustomException(new IllegalArgumentException());
-            }
-        }catch (Exception ex){
-            System.out.println(ExceptionUtils.getStackTrace(ex));
-        }
+        RawQueries rawQueries = new RawQueries();
+        modifyTestClass(rawQueries.getTestClass());
+        System.out.println(rawQueries.getTestClass().getQpMap());
+    }
+    private static void modifyTestClass(TestClass testClass){
+        Map<String, String> qpMap = testClass.getQpMap();
+        qpMap.put("aman", "changed");
     }
     private static class CustomException extends RuntimeException{
         public CustomException(Exception ex) {
             super(ex);
+        }
+    }
+    private static class RawQueries{
+        private TestClass testClass = new TestClass();
+
+        public TestClass getTestClass() {
+            return testClass;
+        }
+
+        public void setTestClass(TestClass testClass) {
+            this.testClass = testClass;
+        }
+    }
+    private static class TestClass{
+        private Map<String, String> qpMap = new HashMap<>();
+
+        public TestClass() {
+            qpMap.put("aman", "firstInit");
+        }
+
+        public Map<String, String> getQpMap() {
+            return qpMap;
+        }
+
+        public void setQpMap(Map<String, String> qpMap) {
+            this.qpMap = qpMap;
         }
     }
 
