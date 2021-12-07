@@ -29,6 +29,7 @@
         <module name="boss-service" />
         <module name="shared-service" />
         <module name="cms-service" />
+        <module name="translation-service" />
         <module name="item-query-service" />
         <module name="log-importer" />
         <module name="cb-be-service" />

@@ -26,6 +26,7 @@
     <mapping directory="$PROJECT_DIR$/../sitepage-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../spark-analytics-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../trade-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../translation-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../usercomm-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../xapi-service" vcs="Git" />
   </component>
