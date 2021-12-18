@@ -42,9 +42,16 @@ public class Main {
 //        System.out.println(Main.class.getResource("/").getPath());
 //        String property = System.getProperty("os.name");
 //        System.out.println(property);
-        RawQueries rawQueries = new RawQueries();
-        modifyTestClass(rawQueries.getTestClass());
-        System.out.println(rawQueries.getTestClass().getQpMap());
+//        RawQueries rawQueries = new RawQueries();
+//        modifyTestClass(rawQueries.getTestClass() );
+//        System.out.println(rawQueries.getTestClass().getQpMap());
+
+        String tester = "{!tag=l1}seller";
+        String substring = tester.substring(tester.indexOf("{"), tester.indexOf("}") + 1);
+        System.out.println(substring);
+        if(substring.contains("tag")){
+            System.out.println("yes it works");
+        }
     }
     private static void modifyTestClass(TestClass testClass){
         Map<String, String> qpMap = testClass.getQpMap();
