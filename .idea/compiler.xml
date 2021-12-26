@@ -9,6 +9,7 @@
         <module name="design-patterns" />
         <module name="analytics-service" />
         <module name="shared-jms" />
+        <module name="ecom-service" />
         <module name="ReactSpringService" />
         <module name="shared-salesforce" />
         <module name="shared-database" />
@@ -16,11 +17,12 @@
         <module name="PhonePe-client" />
         <module name="xapi-service" />
         <module name="spark-analytics-service" />
-        <module name="LuceneMonitor" />
         <module name="shared-test" />
         <module name="codersbidv2" />
         <module name="dibs-solr" />
+        <module name="ratedRaMutithreadingJobManager" />
         <module name="in28Minutes-first-webapp" />
+        <module name="cb-be-service" />
         <module name="inventory-service" />
         <module name="RestSorting" />
         <module name="trade-service" />
@@ -29,17 +31,16 @@
         <module name="boss-service" />
         <module name="shared-service" />
         <module name="cms-service" />
-        <module name="translation-service" />
         <module name="item-query-service" />
-        <module name="log-importer" />
-        <module name="cb-be-service" />
-        <module name="ecom-service" />
+        <module name="shared-lib" />
+        <module name="dummyProject" />
+        <module name="translation-service" />
         <module name="dibs-protos" />
         <module name="logistics-service" />
         <module name="config-service" />
-        <module name="shared-lib" />
+        <module name="awslambda-demo" />
         <module name="identity-service" />
-        <module name="ratedRaMutithreadingJobManager" />
+        <module name="LuceneMonitor" />
         <module name="shared-properties" />
         <module name="usercomm" />
         <module name="shared-workflow" />
@@ -53,12 +54,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="log-importer" target="1.8" />
       <module name="RatedRaMultithreadingJobManager" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="codersbidv2" options="-parameters" />
+      <module name="dummyProject" options="-parameters" />
     </option>
   </component>
 </project>

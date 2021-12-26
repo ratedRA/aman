@@ -45,6 +45,8 @@
         <option value="$PROJECT_DIR$/../designPatterns/pom.xml" />
         <option value="$PROJECT_DIR$/../boss-service/pom.xml" />
         <option value="$PROJECT_DIR$/../translation-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../dummyProject/pom.xml" />
+        <option value="$PROJECT_DIR$/../awslambda-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
