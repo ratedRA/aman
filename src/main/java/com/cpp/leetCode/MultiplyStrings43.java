@@ -14,5 +14,6 @@ public class MultiplyStrings43 {
 
             }
         }
+        return null;
     }
 }
