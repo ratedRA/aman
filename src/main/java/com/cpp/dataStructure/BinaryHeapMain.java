@@ -1,6 +1,6 @@
 package com.cpp.dataStructure;
 
-public class BinaryHeap {
+class BinaryHeap {
 
     private int[] heap;
     private int size;
@@ -52,7 +52,7 @@ public class BinaryHeap {
         }
     }
 
-    private boolean insert(int val){
+    public boolean insert(int val){
         if(size >= heap.length){
             return false;
         }
@@ -72,7 +72,7 @@ public class BinaryHeap {
         return true;
     }
 
-    private int extractMin(){
+    public int extractMin(){
         /**
          * replace root element with last node
          * delete last node
@@ -84,4 +84,41 @@ public class BinaryHeap {
 
         return min;
     }
+
+    public void print()
+    {
+        for (int i = 1; i <= size / 2; i++) {
+
+            // Printing the parent and both childrens
+            System.out.print(
+                    " PARENT : " + heap[i]
+                            + " LEFT CHILD : " + heap[2 * i]
+                            + " RIGHT CHILD :" + heap[2 * i + 1]);
+
+            // By here new line is required
+            System.out.println();
+        }
+    }
 }
+
+public class BinaryHeapMain{
+    public static void main(String[] args) {
+        BinaryHeap minHeap = new BinaryHeap(15);
+        minHeap.insert(5);
+        minHeap.insert(3);
+        minHeap.insert(17);
+        minHeap.insert(10);
+        minHeap.insert(84);
+        minHeap.insert(19);
+        minHeap.insert(6);
+        minHeap.insert(22);
+        minHeap.insert(9);
+
+        minHeap.print();
+
+        System.out.println("The Min val is "
+                + minHeap.extractMin());
+    }
+}
+
+
