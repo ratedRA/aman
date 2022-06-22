@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../consul-config/consul-config.iml" filepath="$PROJECT_DIR$/../consul-config/consul-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dibs-utils/dibs-utils.iml" filepath="$PROJECT_DIR$/../dibs-utils/dibs-utils.iml" />
     </modules>
   </component>
 </project>

@@ -19,7 +19,6 @@
         <option value="$PROJECT_DIR$/../item-query-service/pom.xml" />
         <option value="$PROJECT_DIR$/../config-service/pom.xml" />
         <option value="$PROJECT_DIR$/../analytics-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../Codersbid-backend/pom.xml" />
         <option value="$PROJECT_DIR$/../shared-lib/pom.xml" />
         <option value="$PROJECT_DIR$/../usercomm-service/pom.xml" />
         <option value="$PROJECT_DIR$/../cms-service/pom.xml" />
@@ -47,6 +46,7 @@
         <option value="$PROJECT_DIR$/../translation-service/pom.xml" />
         <option value="$PROJECT_DIR$/../dummyProject/pom.xml" />
         <option value="$PROJECT_DIR$/../awslambda-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../taxonomy-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

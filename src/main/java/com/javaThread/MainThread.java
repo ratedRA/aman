@@ -29,12 +29,7 @@ public class MainThread{
         // all the magic happens inside start() Method of thread as it creates
         // new thread and execute the run method inside new thread.*/
 
-        Thread myRunnableThread = new Thread(new Runnable(){
-            @Override
-            public void run() {
-                System.out.println("hello from Runnable Thread"+ " "+ currentThread().getName());
-            }
-        });
+        Thread myRunnableThread = new Thread(() -> System.out.println("hello from Runnable Thread"+ " "+ currentThread().getName()));
         myRunnableThread.setName("--MyRunnableThread--");
         myRunnableThread.start();
 

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/../Codersbid-backend" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../Codersbid-backend/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../Codersbid-backend/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../LuceneMonitor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../LuceneMonitor/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ReactSpringService/src/main/java" charset="UTF-8" />
