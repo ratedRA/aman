@@ -1,4 +1,7 @@
-package com.cpp.dataStructure.graph;
+package com.cpp.dataStructure.graph.algo;
+
+import com.cpp.dataStructure.graph.Graph;
+import com.cpp.dataStructure.graph.UnweightedGraph;
 
 import java.util.ArrayList;
 import java.util.Arrays;
