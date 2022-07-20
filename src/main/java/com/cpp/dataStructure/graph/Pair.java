@@ -2,11 +2,11 @@ package com.cpp.dataStructure.graph;
 
 public class Pair {
     private int node;
-    private int weight;
+    private int nodeMeta;
 
-    public Pair(int node, int weight) {
+    public Pair(int node, int nodeMeta) {
         this.node = node;
-        this.weight = weight;
+        this.nodeMeta = nodeMeta;
     }
 
     public int getNode() {
@@ -17,11 +17,11 @@ public class Pair {
         this.node = node;
     }
 
-    public int getWeight() {
-        return weight;
+    public int getNodeMeta() {
+        return nodeMeta;
     }
 
-    public void setWeight(int weight) {
-        this.weight = weight;
+    public void setNodeMeta(int nodeMeta) {
+        this.nodeMeta = nodeMeta;
     }
 }

@@ -1,8 +1,8 @@
 package com.cpp.dataStructure.graph;
 
-public class UnweightedGraph extends Graph<Integer> {
+public class RegularGraph extends Graph<Integer> {
 
-    public UnweightedGraph(int verticesCount, boolean directed) {
+    public RegularGraph(int verticesCount, boolean directed) {
         super(verticesCount, directed);
     }
 

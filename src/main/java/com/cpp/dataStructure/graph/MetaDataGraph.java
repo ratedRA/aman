@@ -1,8 +1,8 @@
 package com.cpp.dataStructure.graph;
 
-public class WeightedGraph extends Graph<Pair>{
+public class MetaDataGraph extends Graph<Pair>{
 
-    public WeightedGraph(int verticesCount, boolean directed) {
+    public MetaDataGraph(int verticesCount, boolean directed) {
         super(verticesCount, directed);
     }
 

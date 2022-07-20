@@ -1,7 +1,7 @@
 package com.cpp.dataStructure.graph.algo;
 
 import com.cpp.dataStructure.graph.Graph;
-import com.cpp.dataStructure.graph.UnweightedGraph;
+import com.cpp.dataStructure.graph.RegularGraph;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,7 +12,7 @@ import java.util.Queue;
 public class BfsConnectedComponent {
     public static void main(String[] args) {
         List<List<Integer>> connectedComponents = new ArrayList<>();
-        Graph<Integer> graph = new UnweightedGraph(7, true);
+        Graph<Integer> graph = new RegularGraph(7, true);
         graph.addEdge(1,2);
         graph.addEdge(2,3);
         graph.addEdge(3,5);
