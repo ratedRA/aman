@@ -7,9 +7,6 @@
     <groupId>aman</groupId>
     <artifactId>aman</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>RatedRaMultithreadingJobManager</module>
-    </modules>
     <packaging>pom</packaging>
 
     <name>aman Maven Webapp</name>
