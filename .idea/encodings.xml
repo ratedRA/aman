@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../LLD/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LLD/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../LuceneMonitor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../LuceneMonitor/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ReactSpringService/src/main/java" charset="UTF-8" />
@@ -20,6 +22,7 @@
     <file url="file://$PROJECT_DIR$/../cms-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../cms-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../codersbidv2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../dibs-protos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../dibs-protos/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../dibs-protos/src/main/resources" charset="UTF-8" />
@@ -27,6 +30,9 @@
     <file url="file://$PROJECT_DIR$/../ecom-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ecom-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ecom-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../game-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../grpc-java/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../grpc-java/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../inventory-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../inventory-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../inventory-service/src/main/resources" charset="UTF-8" />
@@ -35,5 +41,10 @@
     <file url="file://$PROJECT_DIR$/../item-query-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../item-search-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../item-search-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../luckygames/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../matrimony-be/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../matrimony-be/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../newsletter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../newsletter/src/main/resources" charset="UTF-8" />
   </component>
 </project>

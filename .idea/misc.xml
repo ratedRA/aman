@@ -47,6 +47,14 @@
         <option value="$PROJECT_DIR$/../dummyProject/pom.xml" />
         <option value="$PROJECT_DIR$/../awslambda-demo/pom.xml" />
         <option value="$PROJECT_DIR$/../taxonomy-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../grpc-java/pom.xml" />
+        <option value="$PROJECT_DIR$/../DesignPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/../demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../newsletter/pom.xml" />
+        <option value="$PROJECT_DIR$/../matrimony-be/pom.xml" />
+        <option value="$PROJECT_DIR$/../game-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../LLD/pom.xml" />
+        <option value="$PROJECT_DIR$/../luckygames/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -56,7 +64,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8.0_221" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="19" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

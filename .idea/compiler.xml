@@ -6,63 +6,70 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="design-patterns" />
-        <module name="analytics-service" />
-        <module name="shared-jms" />
-        <module name="shared-program" />
-        <module name="ReactSpringService" />
-        <module name="shared-salesforce" />
-        <module name="shared-database" />
-        <module name="shared-util" />
-        <module name="PhonePe-client" />
-        <module name="xapi-service" />
-        <module name="spark-analytics-service" />
-        <module name="LuceneMonitor" />
+        <module name="newsletter" />
+        <module name="shared-lib" />
         <module name="shared-test" />
-        <module name="item-query-service" />
-        <module name="codersbidv2" />
-        <module name="dibs-solr" />
+        <module name="awslambda-demo" />
+        <module name="LuceneMonitor" />
         <module name="in28Minutes-first-webapp" />
         <module name="inventory-service" />
-        <module name="RestSorting" />
-        <module name="trade-service" />
-        <module name="dibs-transformer-maven-plugin" />
-        <module name="boss-service" />
-        <module name="cms-service" />
-        <module name="translation-service" />
-        <module name="cb-backend-service" />
-        <module name="identity-service" />
-        <module name="dummyProject" />
-        <module name="ecom-service" />
-        <module name="dibs-protos" />
-        <module name="logistics-service" />
-        <module name="config-service" />
-        <module name="awslambda-demo" />
-        <module name="shared-service" />
-        <module name="ratedRaMutithreadingJobManager" />
         <module name="shared-properties" />
-        <module name="usercomm" />
-        <module name="shared-workflow" />
-        <module name="taxonomy-service" />
-        <module name="sitepage-service" />
-        <module name="itemSearch-service" />
-        <module name="third-party-clients" />
-        <module name="shared-lib" />
         <module name="mc" />
-        <module name="shared-solr" />
+        <module name="itemSearch-service" />
+        <module name="analytics-service" />
+        <module name="shared-util" />
+        <module name="item-query-service" />
+        <module name="dibs-solr" />
         <module name="shared-rules" />
+        <module name="dibs-transformer-maven-plugin" />
+        <module name="config-service" />
+        <module name="logistics-service" />
+        <module name="shared-solr" />
+        <module name="lucky9" />
+        <module name="shared-jms" />
+        <module name="identity-service" />
+        <module name="codersbidv2" />
+        <module name="ecom-service" />
+        <module name="shared-program" />
+        <module name="dibs-protos" />
+        <module name="sitepage-service" />
+        <module name="LLD" />
+        <module name="ReactSpringService" />
+        <module name="demo" />
+        <module name="taxonomy-service" />
+        <module name="matrimony" />
+        <module name="grpc-java" />
+        <module name="shared-salesforce" />
+        <module name="dummyProject" />
+        <module name="shared-service" />
+        <module name="shared-workflow" />
+        <module name="design-patterns" />
+        <module name="spark-analytics-service" />
+        <module name="shared-database" />
+        <module name="game-service" />
+        <module name="PhonePe-client" />
+        <module name="trade-service" />
+        <module name="cb-backend-service" />
+        <module name="boss-service" />
+        <module name="xapi-service" />
+        <module name="usercomm" />
+        <module name="ratedRaMutithreadingJobManager" />
+        <module name="translation-service" />
+        <module name="RestSorting" />
+        <module name="cms-service" />
+        <module name="third-party-clients" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cb-be-service" target="8" />
-      <module name="log-importer" target="1.8" />
-      <module name="RatedRaMultithreadingJobManager" target="8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="17" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="codersbidv2" options="-parameters" />
-      <module name="dummyProject" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="game-service" options="-parameters" />
+      <module name="lucky9" options="-parameters" />
+      <module name="matrimony" options="-parameters" />
+      <module name="newsletter" options="-parameters" />
     </option>
   </component>
 </project>
